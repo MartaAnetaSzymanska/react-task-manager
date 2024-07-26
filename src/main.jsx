@@ -5,7 +5,7 @@ import { store, persistor } from "./redux/store.js";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { BrowserRouter } from "react-router-dom";
-import "modern-normalize";
+// import "modern-normalize";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
