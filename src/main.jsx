@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Provider store={store}>
       {/* PersistGate to brama, która pozwala zapisywać dane ze store do pamięci lokalnej */}
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter>
+        <BrowserRouter basename="/react-task-manager/">
           <App />
         </BrowserRouter>
       </PersistGate>
